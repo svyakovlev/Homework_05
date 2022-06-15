@@ -8,6 +8,27 @@ public class Main {
 
         double[] array2 = {1.57, 7.654, 9.986};
 
-        boolean[] array3 = {false, true, true};
+        boolean[] array3 = {false, true, true, false};
+
+        //Задача №2
+        int i;
+        for (i = 0; i < array1.length; i++) {
+            System.out.print(array1[i]);
+            if (i < array1.length - 1) {
+                System.out.print(", ");
+            } else System.out.println();
+        }
+        for (i = 0; i < array2.length; i++) {
+            System.out.print(array2[i]);
+            if (i < array2.length - 1) {
+                System.out.print(", ");
+            } else System.out.println();
+        }
+        for (i = 0; i < array3.length; i++) {
+            System.out.print(array3[i]);
+            if (i < array3.length - 1) {
+                System.out.print(", ");
+            }
+        }
     }
 }
