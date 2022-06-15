@@ -52,6 +52,19 @@ public class Main {
             } else System.out.println();
         }
 
+        //Задача №4
+        for (i = 0; i < array1.length; i++) {
+            if (array1[i] % 2 == 0) {
+                System.out.print(array1[i]);
+            } else {
+                array1[i] += 1;
+                System.out.print(array1[i]);
+            }
+            if (i < array1.length - 1) {
+                System.out.print(", ");
+            }
+        }
+
 
     }
 }
